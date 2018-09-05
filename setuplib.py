@@ -47,7 +47,7 @@ extensions = [ ]
 global_macros = [ ]
 
 # True if we're building on android.
-android = "PYGAME_SDL2_ANDROID" in os.environ
+android = True #"PYGAME_SDL2_ANDROID" in os.environ
 
 # True if we're building on ios.
 ios = "PYGAME_SDL2_IOS" in os.environ
